@@ -1,0 +1,15 @@
+{
+  "name": "TELUS Portfolio Cards",
+  "organization": "TELUS Case Management",
+  "description": "Custom Flip-Card UI for Portfolio Planning",
+  "logoUrl": "https://www.telus.com/favicon.ico",
+  "company": "TELUS",
+  "companyUrl": "https://www.telus.com",
+  "supportUrl": "https://www.telus.com",
+  "location": "https://YOUR-GITHUB-USERNAME.github.io/telus-viz/",
+  "resources": {
+    "js": "index.js",
+    "config": "index.json",
+    "css": "index.css"
+  }
+}
