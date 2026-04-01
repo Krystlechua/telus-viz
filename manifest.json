@@ -1,16 +1,23 @@
 {
   "name": "TELUS Portfolio Cards",
-  "organization": "TELUS Case Management",
-  "description": "Custom Flip-Card UI for Portfolio Planning",
+  "organization": "TELUS",
+  "description": "Custom Flip-Cards",
   "logoUrl": "https://www.telus.com/favicon.ico",
   "company": "TELUS",
   "companyUrl": "https://www.telus.com",
   "supportUrl": "https://www.telus.com",
   "location": "https://krystlechua.github.io/telus-viz/",
-  "resources": {
-    "js": "index.js",
-    "config": "index.json",
-    "css": "index.css"
-  }
+  "devMode": true,
+  "components": [
+    {
+      "id": "telusCardViz",
+      "name": "TELUS Card View",
+      "description": "Flip-card visualization for projects",
+      "resources": {
+        "js": "index.js",
+        "config": "index.json",
+        "css": "index.css"
+      }
+    }
+  ]
 }
- 
