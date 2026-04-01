@@ -2,19 +2,13 @@
   "data": [
     {
       "id": "concepts",
-      "label": "Card Fields",
+      "label": "Cards",
       "elements": [
         {
           "id": "dimensions",
-          "label": "Dimensions (App, Product, Status, Release)",
+          "label": "Dimensions",
           "type": "DIMENSION",
-          "options": { "min": 1, "max": 10 }
-        },
-        {
-          "id": "metrics",
-          "label": "Metrics (Cost, Benefit)",
-          "type": "METRIC",
-          "options": { "min": 0, "max": 5 }
+          "options": { "min": 1 }
         }
       ]
     }
@@ -22,15 +16,8 @@
   "style": [
     {
       "id": "appearance",
-      "label": "Branding",
-      "elements": [
-        {
-          "id": "headerColor",
-          "label": "Card Header Color",
-          "type": "FILL_COLOR",
-          "defaultValue": "#4b286d"
-        }
-      ]
+      "label": "Appearance",
+      "elements": []
     }
   ]
 }
